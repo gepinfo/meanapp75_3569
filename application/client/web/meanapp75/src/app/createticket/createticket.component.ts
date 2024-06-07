@@ -64,6 +64,22 @@ export class CreateticketComponent implements OnInit {
             console.log('Error', error);
         });
     }
+    severityGetAllValues() {
+        this.createticketService.severityGetAllValues().subscribe((data:any) => {
+            console.log(data);
+        },
+        (error:Error) => {
+            console.log('Error', error);
+        });
+    }
+    severityGetAllValues() {
+        this.createticketService.severityGetAllValues().subscribe((data:any) => {
+            console.log(data);
+        },
+        (error:Error) => {
+            console.log('Error', error);
+        });
+    }
 
 
 }

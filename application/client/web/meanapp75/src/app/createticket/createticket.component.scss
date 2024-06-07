@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
 }
@@ -38,10 +34,38 @@ body {
 }
 
 #template-i9j8 {
-    transform: translateX(0px) translateY(0px);
+    transform: translateX(0px)translateY(0px);
 }
 
-@media (max-width: 768px) {
+#template-i37iz {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#template-i9jtk {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#template-iu4y9 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#template-il9v2 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+@media(max-width:768px) {
     .gjs-row {
         flex-wrap: wrap;
     }

@@ -25,4 +25,12 @@ export class CreateticketService {
         let jwt_token = sessionStorage.getItem('JwtToken');
  	 	return this.http.get(this.sharedService.WEB_API + '/severity' + `?jwt_token=${jwt_token}`);
     }
+    severityGetAllValues(): Observable<any> {
+        let jwt_token = sessionStorage.getItem('JwtToken');
+ 	 	return this.http.get(this.sharedService.WEB_API + '/severity' + `?jwt_token=${jwt_token}`);
+    }
+    severityGetAllValues(): Observable<any> {
+        let jwt_token = sessionStorage.getItem('JwtToken');
+ 	 	return this.http.get(this.sharedService.WEB_API + '/severity' + `?jwt_token=${jwt_token}`);
+    }
 }
