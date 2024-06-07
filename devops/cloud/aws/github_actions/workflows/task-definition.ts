@@ -70,10 +70,10 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/meanapp75_3569?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"},{"name":"SYSTEMCREDENTIALMANAGERURL","value":"http://127.0.0.1:8005"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8018"}
-            ,{"name":"TICKETSURL","value":"http://meanapp750.local:8019"}
-            ,{"name":"TYPESURL","value":"http://meanapp750.local:8020"}
-            ,{"name":"SEVERITYURL","value":"http://meanapp750.local:8021"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8022"}
+            ,{"name":"TICKETSURL","value":"http://meanapp750.local:8023"}
+            ,{"name":"TYPESURL","value":"http://meanapp750.local:8024"}
+            ,{"name":"SEVERITYURL","value":"http://meanapp750.local:8025"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -295,7 +295,7 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/meanapp75_3569?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8018"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8022"}
             ],
             "mountPoints": [
                 {
@@ -376,9 +376,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8018",
+                    "containerPort": "8022",
                     "protocol": "tcp",
-                    "hostPort": "8018"
+                    "hostPort": "8022"
                 }
             ],
             "environmentFiles": null,
