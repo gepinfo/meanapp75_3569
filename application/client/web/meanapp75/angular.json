@@ -37,13 +37,9 @@
               "src/assets"
             ],
             "styles": [
-"node_modules/ngx-toastr/toastr.css",
-"node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css", 
-"
-"node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css", 
-"node_modules/ngx-toastr/toastr.css",
-"node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css", 
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css",
+              "node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css"
             ],
             "scripts": []
           },
