@@ -32,6 +32,15 @@ const routes: Routes = [
        { path: '', component: TemplateComponent, pathMatch: 'full'   } ,
 { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
 
+{ path : 'createticket', loadChildren: () => import('./createticket/createticket.module').then(m => m.CreateticketModule), canActivate: [AuthGuard] } , 
+{ path : 'updateticket', loadChildren: () => import('./updateticket/updateticket.module').then(m => m.UpdateticketModule), canActivate: [AuthGuard] } , 
+{ path : 'getallticket', loadChildren: () => import('./getallticket/getallticket.module').then(m => m.GetallticketModule), canActivate: [AuthGuard] } , 
+{ path : 'createtypes', loadChildren: () => import('./createtypes/createtypes.module').then(m => m.CreatetypesModule), canActivate: [AuthGuard] } , 
+{ path : 'updatetype', loadChildren: () => import('./updatetype/updatetype.module').then(m => m.UpdatetypeModule), canActivate: [AuthGuard] } , 
+{ path : 'gettypes', loadChildren: () => import('./gettypes/gettypes.module').then(m => m.GettypesModule), canActivate: [AuthGuard] } , 
+{ path : 'createseverity', loadChildren: () => import('./createseverity/createseverity.module').then(m => m.CreateseverityModule), canActivate: [AuthGuard] } , 
+{ path : 'updateseverirty', loadChildren: () => import('./updateseverirty/updateseverirty.module').then(m => m.UpdateseverirtyModule), canActivate: [AuthGuard] } , 
+{ path : 'getallseverity', loadChildren: () => import('./getallseverity/getallseverity.module').then(m => m.GetallseverityModule), canActivate: [AuthGuard] } , 
 ];
 
 @NgModule({
