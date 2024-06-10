@@ -57,26 +57,26 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8046
-    targetPort: 8046
+    port: 8050
+    targetPort: 8050
 
   tickets: 
     name: tickets
     type: NodePort
-    port: 8047
-    targetPort: 8047
+    port: 8051
+    targetPort: 8051
 
   types: 
     name: types
     type: NodePort
-    port: 8048
-    targetPort: 8048
+    port: 8052
+    targetPort: 8052
 
   severity: 
     name: severity
     type: NodePort
-    port: 8049
-    targetPort: 8049
+    port: 8053
+    targetPort: 8053
 
 
 deployment:
