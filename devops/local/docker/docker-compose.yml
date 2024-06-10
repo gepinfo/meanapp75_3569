@@ -253,7 +253,7 @@ services:
     image: systementry-3569
     container_name: systementry-3569
     ports: 
-      - 8062:8062
+      - 8066:8066
     env_file: .env
     depends_on:
       - mongo
@@ -274,7 +274,7 @@ services:
     image: tickets-3569
     container_name: tickets-3569
     ports: 
-      - 8063:8063
+      - 8067:8067
     env_file: .env
     depends_on:
       - mongo
@@ -295,7 +295,7 @@ services:
     image: types-3569
     container_name: types-3569
     ports: 
-      - 8064:8064
+      - 8068:8068
     env_file: .env
     depends_on:
       - mongo
@@ -316,7 +316,7 @@ services:
     image: severity-3569
     container_name: severity-3569
     ports: 
-      - 8065:8065
+      - 8069:8069
     env_file: .env
     depends_on:
       - mongo
