@@ -35,11 +35,14 @@ export class CreateticketComponent implements OnInit {
         
 
 
+        this.typesGetAllValues();
+        this.severityGetAllValues();
     
     }
     typesGetAllValues() {
         this.createticketService.typesGetAllValues().subscribe((data:any) => {
             console.log(data);
+ 	 	this.typesitemArray = data;
         },
         (error:Error) => {
             console.log('Error', error);
@@ -48,6 +51,7 @@ export class CreateticketComponent implements OnInit {
     severityGetAllValues() {
         this.createticketService.severityGetAllValues().subscribe((data:any) => {
             console.log(data);
+ 	 	this.severityitemArray = data;
         },
         (error:Error) => {
             console.log('Error', error);
@@ -67,6 +71,7 @@ export class CreateticketComponent implements OnInit {
     severityGetAllValues() {
         this.createticketService.severityGetAllValues().subscribe((data:any) => {
             console.log(data);
+ 	 	this.severityitemArray = data;
         },
         (error:Error) => {
             console.log('Error', error);
@@ -75,6 +80,7 @@ export class CreateticketComponent implements OnInit {
     severityGetAllValues() {
         this.createticketService.severityGetAllValues().subscribe((data:any) => {
             console.log(data);
+ 	 	this.severityitemArray = data;
         },
         (error:Error) => {
             console.log('Error', error);

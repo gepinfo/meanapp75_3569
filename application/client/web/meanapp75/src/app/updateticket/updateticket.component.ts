@@ -36,12 +36,14 @@ export class UpdateticketComponent implements OnInit {
         
 
 
+        this.typesGetAllValues();
         this.GetEntityById();
     
     }
     typesGetAllValues() {
         this.updateticketService.typesGetAllValues().subscribe((data:any) => {
             console.log(data);
+ 	 	this.typesitemArray = data;
         },
         (error:Error) => {
             console.log('Error', error);
@@ -50,6 +52,7 @@ export class UpdateticketComponent implements OnInit {
     severityGetAllValues() {
         this.updateticketService.severityGetAllValues().subscribe((data:any) => {
             console.log(data);
+ 	 	this.severityitemArray = data;
         },
         (error:Error) => {
             console.log('Error', error);
