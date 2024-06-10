@@ -42,13 +42,13 @@ spec:
             - name: MONGO_DB_URL
               value: "mongodb://{{ .Values.app.prefix }}-app-db.{{ .Values.app.namespace }}.svc.cluster.local:27017/{{ .Values.app.prefix }}"
             - name: SYSTEMENTRYURL
-              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8058"
+              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8062"
 
             - name: TICKETSURL
-              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8059"
+              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8063"
 
             - name: TYPESURL
-              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8060"
+              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8064"
 
             - name: SEVERITYURL
-              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8061"
+              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8065"
