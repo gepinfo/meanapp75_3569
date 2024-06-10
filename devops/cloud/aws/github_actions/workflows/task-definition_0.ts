@@ -12,9 +12,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8067",
+                    "containerPort": "8071",
                     "protocol": "tcp",
-                    "hostPort": "8067"
+                    "hostPort": "8071"
                 }
             ],
             "environmentFiles": null,
@@ -56,9 +56,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8068",
+                    "containerPort": "8072",
                     "protocol": "tcp",
-                    "hostPort": "8068"
+                    "hostPort": "8072"
                 }
             ],
             "environmentFiles": null,
@@ -100,9 +100,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8069",
+                    "containerPort": "8073",
                     "protocol": "tcp",
-                    "hostPort": "8069"
+                    "hostPort": "8073"
                 }
             ],
             "environmentFiles": null,
